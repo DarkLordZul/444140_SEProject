@@ -1,4 +1,4 @@
-"""testing of program carried out here"""
+"""testing of Sorts package are carried out here"""
 from Sorts.ArrayUtilities import gen_array, permute_array
 from Sorts.Printing import print_array
 from Sorts.Algorithms import heap_sort, bubble_sort

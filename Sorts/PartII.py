@@ -9,7 +9,8 @@ from numpy import sort as quick_sort
 __author__ = 'Nicholas Branfield'
 
 
-def tabulate_timings(self):
+def tabulate_timings():
+    print("timings begun - bubble sort will take some time to complete... please wait")
     times = {"Algorithm": ["quickSort", "heapSort", "bubbleSort"], "Time (seconds)": [0.0, 0.0, 0.0]}
 
     size = 10000
